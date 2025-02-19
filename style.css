@@ -102,6 +102,15 @@ section {
   display: inline-block;
   color: transparent;
   -webkit-text-stroke: .07rem var(--main-color);
+  animation: display-text 16s linear infinite;
+  animation-delay: calc(-4s * var(--i));
+}
+
+
+@keyframes display-text {
+  25%,100%{
+    display: none;
+  }
 }
 
 .home-detail h2 span::before {
