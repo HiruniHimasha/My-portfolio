@@ -106,7 +106,6 @@ section {
   animation-delay: calc(-4s * var(--i));
 }
 
-
 @keyframes display-text {
   25%,100%{
     display: none;
