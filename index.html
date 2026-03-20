@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hiruni Himasha · interactive portfolio</title>
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <a href="#" class="logo">Hiruni Himasha</a>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <nav id="navbar">
+      <a href="#home" class="nav-i active">Home</a>
+      <a href="#about" class="nav-i">About Me</a>
+      <a href="#education" class="nav-i">Education</a>
+      <a href="#projects" class="nav-i">Projects</a>
+      <a href="#contact" class="nav-i">Contact Me</a>
+    </nav>
+  </header>
+
+  <!-- HOME -->
+  <section class="home" id="home">
+    <div class="home-detail">
+      <h1>Hiruni Himasha <br> Ruwanpathirana</h1>
+      <h2>I am a
+        <span style="--i:4;" data-text="Frontend Developer">Frontend Developer</span>
+        <span style="--i:3;" data-text="Full Stack Developer">Full Stack Developer</span>
+        <span style="--i:2;" data-text="Frontend Developer">Frontend Developer</span>
+        <span style="--i:1;" data-text="Full Stack Developer">Full Stack Developer</span>
+      </h2>
+      <p>Full Stack Developer with a passion for building modern, responsive websites and dynamic web applications,
+        combining frontend creativity with strong backend development skills.</p>
+      <div class="btn-sci">
+        <a href="files/Hiruni_Himasha_CV.pdf" class="btn" download="Hiruni_CV.pdf" target="_blank">Download CV</a>
+        <div class="sci">
+          <a href="https://github.com/HiruniHimasha" target="_blank"><i class='bx bxl-github'></i></a>
+          <a href="https://linkedin.com/in/hiruni-himasha-ruwanpathirana-836342307" target="_blank"><i
+              class='bx bxl-linkedin'></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="home-img">
+      <div class="img-box">
+        <div class="img-item">
+          <img src="images/home.png" alt="Hiruni">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="images/home.png" alt="about me">
+    </div>
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <p>
+        I have completed all academic coursework for the <strong>Information and Communication Technology (Honors)
+          Degree, specializing in Software Engineering, at the Faculty of Technology, University of Sri
+          Jayewardenepura,</strong> and I am currently awaiting my final results. At present, I am engaged in my ongoing
+        research project, further strengthening my analytical and technical skills.
+        <br><br>
+        Passionate about coding and problem-solving, I focus on designing and developing efficient, scalable, and
+        user-friendly software solutions. I continuously enhance my expertise in modern programming languages,
+        frameworks, and full-stack development practices to build impactful digital solutions.
+      </p>
+    </div>
+  </section>
+
+  <!-- EDUCATION (title spacing improved) -->
+  <section class="education" id="education">
+    <h2 class="heading">My <span>Education</span></h2>
+    <div class="education-content">
+      <div class="education-item">
+        <h3><i class='bx bxs-graduation'></i> Bachelor of ICT</h3>
+        <p><strong>University of Sri Jayewardenepura</strong> | <em>2022 - Present</em><br>Specializing in Software Engineering, focusing on programming, software development, and problem-solving.</p>
+      </div>
+      <div class="education-item">
+        <h3><i class='bx bxs-graduation'></i> Dip. in Business Management</h3>
+         <p><strong>LPEC Campus</strong> | <em>2024 - 2026</em><br>Specializing in Business Management, focusing on business operations, strategic planning, leadership, and organizational development.</p>
+      </div>
+      <div class="education-item">
+        <h3><i class='bx bxs-landmark'></i> A/L in Technology</h3>
+        <p><strong>MR/Narandeniya National College, Matara</strong> | <em>2020</em><br>ICT (A), Engineering Technology (C), Science For Technology (A), English (C) with 2.2200 Z-score, Island Rank 246, District Rank 24.</p>
+
+      </div>
+      <div class="education-item">
+        <h3><i class='bx bxs-landmark'></i> O/L Examination</h3>
+        <p><strong>MR/Narandeniya National College, Matara</strong> | <em>2018</em><br>8A passes including Mathematics, Science, ICT and B pass with English.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS (4 columns) -->
+<section class="projects" id="projects">
+  <h2 class="heading">My <span>Projects</span></h2>
+  <div class="projects-grid" id="projectsGrid">
+  
+    <!-- Project 1 -->
+    <div class="project-card">
+      <img src="images/Project%201.png" alt="Lecture Hall" class="project-image">
+      <div class="overlay">
+        <h3>Lecture Hall Mgmt</h3>
+        <p><b>Technologies: React, Vite, MERN Stack</b><br>
+          A group project designed to streamline lecture hall operations. Features include scheduling, issue
+          management, and user notifications, providing a seamless experience for lecturers, students and
+          administrators.</p>
+        <a href="videos\lecture hall management system video.mp4" class="btn" target="_blank">View</a>
+      </div>
+    </div>
+    
+    <!-- Project 2 -->
+    <div class="project-card">
+      <img src="images/Project%202.png" alt="Blackjack" class="project-image">
+      <div class="overlay">
+        <h3>Black Jack Game</h3>
+        <p><b>Technologies: JavaScript</b><br>
+          An individual project implementing the classic Blackjack card game. This mini-project showcases logic-based
+          programming and interactive UI design in a fun and engaging way.</p>
+        <a href="https://inspiring-torte-d5cad6.netlify.app/" class="btn" target="_blank">View</a>
+      </div>
+    </div>
+    
+    <!-- Project 3 -->
+    <div class="project-card">
+      <img src="images/Project%203.png" alt="Weather App" class="project-image">
+      <div class="overlay">
+        <h3>Weather App</h3>
+        <p><b>Technologies: JavaScript</b><br>
+          An individual mini-project providing real-time weather updates based on user input. It integrates weather
+          APIs and displays data in a simple, intuitive interface.</p>
+        <a href="https://1weatherapp-js.netlify.app/" class="btn" target="_blank">View</a>
+      </div>
+    </div>
+    
+    <!-- Project 4 -->
+    <div class="project-card">
+      <img src="images/Project%204.png" alt="Food Delivery" class="project-image">
+      <div class="overlay">
+        <h3>Food Delivery</h3>
+        <p><b>Technologies: MERN Stack </b><br>
+          A full-stack project for a food delivery website, allowing users to browse menus, place orders, and track
+          deliveries. The app is built using the MERN stack, providing a responsive and user-friendly experience.</p>
+        <a href="videos\food_delivery.mp4" class="btn" target="_blank">View</a>
+      </div>
+    </div>
+    
+    <!-- Project 5 -->
+    <div class="project-card">
+      <img src="images/Project%205.png" alt="Todo Angular" class="project-image">
+      <div class="overlay">
+        <h3>ToDo List App</h3>
+        <p><b>Technologies: Angular </b><br>
+          A To-Do List app built with Angular, allowing users to add, update, and delete tasks with a responsive and
+          intuitive interface. The app provides a seamless user experience for managing daily tasks efficiently.</p>
+        <a href="https://angular1-todolist.netlify.app/" class="btn" target="_blank">View</a>
+      </div>
+    </div>
+    
+    <!-- Project 6 -->
+    <div class="project-card">
+      <img src="images/Project%206.png" alt="E-commerce" class="project-image">
+      <div class="overlay">
+        <h3>E-Commerce</h3>
+        <p><b>Technologies: Angular </b><br>
+          A e-commerce web application that enables users to browse products, add items to the cart, and make secure
+          payments. Built with Angular and integrated with Stripe, the app offers a smooth and responsive shopping
+          experience.</p>
+        <a href="videos\Angular_ECommerce_Website.mp4" class="btn" target="_blank">View</a>
+      </div>
+    </div>
+    
+    <!-- Project 7 -->
+    <div class="project-card">
+      <img src="images/Project%207.png" alt="Real Estate" class="project-image">
+      <div class="overlay">
+        <h3>Real-State Website</h3>
+        <p><b>Technologies: React-Js </b><br>
+          A responsive real estate website built with React.js, showcasing property listings with detailed views.
+          Designed with a clean and modern UI for easy browsing and a smooth user experience.</p>
+        <a href="https://real-state-website-reactjs.netlify.app/" class="btn" target="_blank">View</a>
+      </div>
+    </div>
+
+    <!-- Project 8 -->
+    <div class="project-card">
+      <img src="images\Project8.png" alt="Real Estate" class="project-image">
+      <div class="overlay">
+        <h3>Movie Explorer Website</h3>
+        <p><b>Technologies: React-Js </b><br>
+         A responsive movie explorer built with React.js, featuring TMDb-powered search, user authentication, profile management, and YouTube trailer integration for a smooth and modern browsing experience.</p>
+        <a href="https://movieexplorerapp1.netlify.app" class="btn" target="_blank">View</a>
+      </div>
+    </div>
+
+    <!-- EXTRA PROJECT 9 (Hidden by default) -->
+    <div class="project-card extra-project">
+      <img src="images\Project 9.png" alt="Real Estate" class="project-image">
+      <div class="overlay">
+        <h3>Tourism Website</h3>
+        <p><b>Technologies: React-Js & Tailwind CSS </b><br>
+        A responsive tourism website prototype showcasing popular destinations, with dedicated About Us, Services, and Contact pages, designed with a clean and user-friendly interface.</p>
+        <a href="https://tourism-website-travel.netlify.app/" class="btn" target="_blank">View</a>
+      </div>
+    </div>
+
+     <!-- EXTRA PROJECT 10 (Hidden by default) 
+    <div class="project-card extra-project">
+      
+  </div>-->
+  
+  <!-- See More Button -->
+  <div class="see-more-container">
+    <button id="seeMoreBtn" class="btn">See More</button>
+  </div>
+</section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <div class="contact-content">
+      <div class="contact-form">
+        <form id="contact-form">
+          <div class="input-box"><input type="text" name="name" id="name" placeholder="Your Name" required></div>
+          <div class="input-box"><input type="email" name="email" id="email" placeholder="Your Email" required></div>
+          <div class="input-box"><textarea name="message" id="message" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="button" class="btn" onclick="sendMail()">Send Message</button>
+        </form>
+      </div>
+      <div class="contact-info">
+        <h3>Get in Touch</h3>
+        <p><i class='bx bxs-envelope'></i> rp.hiruni.himasha@gmail.com</p>
+        <p><i class='bx bxs-phone'></i> +94 78 14 11693</p>
+        <p><i class='bx bxs-map'></i> Matara, Sri Lanka</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EmailJS Library -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  
+<script src="script.js"></script>
+</body>
+
+</html>
